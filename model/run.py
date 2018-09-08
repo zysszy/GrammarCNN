@@ -95,7 +95,7 @@ def run():
     valid_batch = get_valid_batch()
     best_accuracy = 0.965
     best_card = -1
-    print(NL_vocabu_size, Tree_vocabu_size)
+    #print(NL_vocabu_size, Tree_vocabu_size)
     #config = tf.ConfigProto(device_count={"GPU": 0})
     #gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.9)
     #config = tf.ConfigProto(allow_soft_placement=True, gpu_options=gpu_options)

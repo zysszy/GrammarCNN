@@ -156,6 +156,55 @@ def load_data():
         #     parent_node.append(tree_vocabulary[parent_node_line])
         # else:
         #     parent_node.append(0)
+
+    f = open("dev.txt", "r")
+    lines = f.readlines()
+    for i in range(int(len(lines) / 8)):
+        nl_line = lines[8 * i][:-1]
+        if len(nl_line.split())>=150:
+            print(nl_line)
+            return
+        nl_test.append(nl_line.split())
+        tree_line = lines[8 * i + 1][:-1]
+        label_line = lines[8 * i + 6][:-1]
+        rule_list_line = lines[8 * i + 5][:-1]
+        node_line = lines[8 * i + 2][:-1]
+        parent_node_line = lines[8 * i + 3][:-1]
+        # deep_line = lines[8 * i + 4][:-1]
+        func_line = lines[8 * i + 7][:-1]
+        parent_list_line = lines[8 * i + 4][:-1]
+        #print(nl_line, tree_line, label_line)
+        sentence2vec(nl_line)
+        tree2vec(tree_line)
+        tree2vec(node_line)
+        tree2vec(parent_node_line)
+        tree2vec(func_line)
+        tree2vec(parent_list_line)
+
+
+    f = open("test.txt", "r")
+    lines = f.readlines()
+    for i in range(int(len(lines) / 8)):
+        nl_line = lines[8 * i][:-1]
+        if len(nl_line.split())>=150:
+            print(nl_line)
+            return
+        nl_test.append(nl_line.split())
+        tree_line = lines[8 * i + 1][:-1]
+        label_line = lines[8 * i + 6][:-1]
+        rule_list_line = lines[8 * i + 5][:-1]
+        node_line = lines[8 * i + 2][:-1]
+        parent_node_line = lines[8 * i + 3][:-1]
+        # deep_line = lines[8 * i + 4][:-1]
+        func_line = lines[8 * i + 7][:-1]
+        parent_list_line = lines[8 * i + 4][:-1]
+        #print(nl_line, tree_line, label_line)
+        sentence2vec(nl_line)
+        tree2vec(tree_line)
+        tree2vec(node_line)
+        tree2vec(parent_node_line)
+        tree2vec(func_line)
+        tree2vec(parent_list_line)
         
         
     f = open(sys.argv[2] + ".txt", "r")
