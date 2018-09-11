@@ -61,7 +61,10 @@ f = open("Rule.txt", "r")
 lines = f.readlines()
 f.close()
 for line in lines:
-    Rule.append(line.split()[2])
+    if len(line.split()) <= 2:
+        Rule.append(line.split()[0])
+    else:
+        Rule.append(line.split()[2])
 
 
 def load_vocabulary():
