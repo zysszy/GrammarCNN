@@ -6,7 +6,7 @@ def readrule():
 
 NL_len = nl_len = 150  # the number of tokens (input description)
 Tree_len = tree_len = 800         # the number of tokens (partial AST)
-classnum = readrule()  # the number of rules
+classnum = -1          # the number of rules
 parent_len = 100       # Tree Path 
 rulelist_len = 400     # Predicted Rules
 embedding_size = 128   # embedding dim

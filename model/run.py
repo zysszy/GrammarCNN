@@ -21,6 +21,8 @@ Tree_vocabu_size = len(tree_vocabulary)
 
 cardnum = []
 
+card_number = 0
+
 def get_card(lst):
     global cardnum
     if len(cardnum) == 0:
@@ -35,9 +37,9 @@ def get_card(lst):
     return card_number - len(dic)
 
 def create_model(session):
-    if(os.path.exists("./save1")):
+    if(os.path.exists("./" + sys.argv[3] + "/model.cpkt")):
         saver = tf.train.Saver()
-        saver.restore(session, tf.train.latest_checkpoint("./save1/"))
+        saver.restore(session, tf.train.latest_checkpoint("./" + sys.argv[3]))
         print("load the model")
     else:
         session.run(tf.global_variables_initializer())
@@ -46,7 +48,7 @@ def create_model(session):
 
 def save_model(session, number):
     saver = tf.train.Saver()
-    saver.save(session, "save" + str(number) + "/model.cpkt")
+    saver.save(session,  sys.argv[3] + "/model.cpkt")
 
 
 def test():
@@ -189,6 +191,13 @@ def main():
     np.set_printoptions(threshold=np.nan)
     # ReadRule()
     if sys.argv[1] == "train":
+        print ("detar data")
+        os.system("tar -zxvf data_" + sys.argv[3] + ".tar.gz")
+        global classnum
+        global card_number
+        card_number = loadcardnum()
+        #os.system("python3 readcard.py train " + sys.argv[2])
+        classnum = readrule()
         print ("eval set: " + sys.argv[2])
         print ("loading data ......")
         resolve_data()

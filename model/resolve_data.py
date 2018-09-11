@@ -52,19 +52,19 @@ test_copy = np.zeros([10,10])
 nl_train = []
 nl_test = []
 
-
+#classnum = readrule()
 vocabulary = {}
 tree_vocabulary = {}
 Rule = []
-
-f = open("Rule.txt", "r")
-lines = f.readlines()
-f.close()
-for line in lines:
-    if len(line.split()) <= 2:
-        Rule.append(line.split()[0])
-    else:
-        Rule.append(line.split()[2])
+#def readrule_data:
+#f = open("Rule.txt", "r")
+#lines = f.readlines()
+#f.close()
+#for line in lines:
+#    if len(line.split()) <= 2:
+#        Rule.append(line.split()[0])
+#    else:
+#        Rule.append(line.split()[2])
 
 
 def load_vocabulary():
@@ -463,6 +463,8 @@ def get_valid_batch():
     return batch0, batch1, batch2, batch3, batch4 , batch5, batch6, batch7#, batch8
 
 def resolve_data():
+    global classnum
+    classnum = readrule()
     global vocabulary
     global tree_vocabulary
     vocabulary["Unknown"] = 0
@@ -471,8 +473,8 @@ def resolve_data():
     outputtreevoc.append("Unknown")
     #load_vocabulary()
     load_data()
-    #if not os.path.exists("vocabulary.txt"):
-    #    f = open("vocabulary.txt", "w")
+    if not os.path.exists(sys.argv[3] + "/vocabulary.txt"):
+        f = open(sys.argv[3] + "/vocabulary.txt", "w")
         #vocabulary_s = sorted(vocabulary.items(), key = lambda v:v[1])
         #print (len(vocabulary))
         #print (len(outputvoc))
@@ -480,16 +482,16 @@ def resolve_data():
         #for x in outputvoc:
             #f.write(x)
             #f.write("\n")
-   #     f.write(str(vocabulary))
-   #     f.close()
-    #if not os.path.exists("tree_vocabulary.txt"):
-    #    f = open("tree_vocabulary.txt", "w")
+        f.write(str(vocabulary))
+        f.close()
+    if not os.path.exists(sys.argv[3] + "/tree_vocabulary.txt"):
+        f = open(sys.argv[3] + "/tree_vocabulary.txt", "w")
         #tree_vocabulary_s = sorted(tree_vocabulary.items(), key = lambda v:v[1])
         #for x in outputtreevoc:
             #f.write(x)
             #f.write("\n")
-    #    f.write(str(tree_vocabulary))
-    #    f.close()
+        f.write(str(tree_vocabulary))
+        f.close()
     #print(vocabulary)
     #print(tree_vocabulary)
     data2numpy()
