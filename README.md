@@ -5,7 +5,8 @@
 python3 run.py train {train|dev|test} {tree|var|func}
 ```
 ```tree``` for nonterminal nodes, ```var``` for variable nodes, and ```func``` for function nodes.
-Where train, dev and test denote the evaluation set.
+
+Where ```train```, ```dev``` and ```test``` denote the evaluation set.
 ## Dependenices 
   * Tensorflow 1.3.1
   * Python 3.5
