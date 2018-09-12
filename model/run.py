@@ -37,7 +37,7 @@ def get_card(lst):
     return card_number - len(dic)
 
 def create_model(session):
-    if(os.path.exists("./" + sys.argv[3] + "/model.cpkt")):
+    if(os.path.exists("./" + sys.argv[3] + "/checkpoint")):
         saver = tf.train.Saver()
         saver.restore(session, tf.train.latest_checkpoint("./" + sys.argv[3]))
         print("load the model")
