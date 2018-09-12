@@ -1179,7 +1179,7 @@ def predict():
                     f.write("Unknown ^\n")
                     f.close()
 
-                    BeamSearch(sess, sess_var ,sess_func, Code_gen_model, Code_gen_model_var, Code_gen_model_func, Nl, 1, i)
+                    BeamSearch(sess, sess_var ,sess_func, Code_gen_model, Code_gen_model_var, Code_gen_model_func, Nl, 5, i)
                     print(str(i) + "th card is finished")
 
 
