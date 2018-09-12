@@ -1,0 +1,1 @@
+wrath of air totem name_end 0 atk_end 2 def_end 1 cost_end -1 dur_end minion type_end shaman player_cls_end totem race_end free rarity_end b spell damage +1 /b 

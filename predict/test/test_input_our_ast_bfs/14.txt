@@ -1,0 +1,1 @@
+voodoo doctor name_end 2 atk_end 1 def_end 1 cost_end -1 dur_end minion type_end neutral player_cls_end nil race_end free rarity_end b battlecry /b restore 2 health 

@@ -1,0 +1,1 @@
+scarlet purifier name_end 4 atk_end 3 def_end 3 cost_end -1 dur_end minion type_end paladin player_cls_end nil race_end rare rarity_end b battlecry /b deal 2 damage to all minions with b deathrattle /b 

@@ -1,0 +1,1 @@
+lightwarden name_end 1 atk_end 2 def_end 1 cost_end -1 dur_end minion type_end neutral player_cls_end nil race_end rare rarity_end whenever a character is healed gain +2 attack 

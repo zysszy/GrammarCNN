@@ -1,0 +1,1 @@
+summoning portal name_end 0 atk_end 4 def_end 4 cost_end -1 dur_end minion type_end warlock player_cls_end nil race_end common rarity_end your minions cost (2) less but not less than (1) 

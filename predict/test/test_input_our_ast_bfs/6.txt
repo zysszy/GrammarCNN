@@ -1,0 +1,1 @@
+hellfire name_end -1 atk_end -1 def_end 4 cost_end -1 dur_end spell type_end warlock player_cls_end nil race_end free rarity_end deal $3 damage to all characters 

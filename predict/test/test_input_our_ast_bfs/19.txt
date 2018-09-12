@@ -1,0 +1,1 @@
+cogmaster's wrench name_end 1 atk_end -1 def_end 3 cost_end 3 dur_end weapon type_end rogue player_cls_end nil race_end epic rarity_end has +2 attack while you have a mech 

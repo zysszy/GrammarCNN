@@ -1,0 +1,1 @@
+blade flurry name_end -1 atk_end -1 def_end 2 cost_end -1 dur_end spell type_end rogue player_cls_end nil race_end rare rarity_end destroy your weapon and deal its damage to all enemies 

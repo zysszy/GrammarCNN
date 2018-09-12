@@ -1,0 +1,1 @@
+shadow madness name_end -1 atk_end -1 def_end 4 cost_end -1 dur_end spell type_end priest player_cls_end nil race_end rare rarity_end gain control of an enemy minion with 3 or less attack until end of turn 

@@ -1,0 +1,1 @@
+floating watcher name_end 4 atk_end 4 def_end 5 cost_end -1 dur_end minion type_end warlock player_cls_end demon race_end common rarity_end whenever your hero takes damage on your turn gain +2/+2 

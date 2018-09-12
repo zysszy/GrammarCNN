@@ -1,0 +1,1 @@
+frostwolf warlord name_end 4 atk_end 4 def_end 5 cost_end -1 dur_end minion type_end neutral player_cls_end nil race_end common rarity_end b battlecry /b gain +1/+1 for each other friendly minion on the battlefield 

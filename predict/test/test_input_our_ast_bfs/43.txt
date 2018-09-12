@@ -1,0 +1,1 @@
+earth elemental name_end 7 atk_end 8 def_end 5 cost_end -1 dur_end minion type_end shaman player_cls_end nil race_end epic rarity_end b taunt /b b overload /b (3) 

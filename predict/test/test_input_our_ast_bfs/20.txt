@@ -1,0 +1,1 @@
+echo of medivh name_end -1 atk_end -1 def_end 4 cost_end -1 dur_end spell type_end mage player_cls_end nil race_end epic rarity_end put a copy of each friendly minion into your hand 

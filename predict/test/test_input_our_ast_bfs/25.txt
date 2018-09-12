@@ -1,0 +1,1 @@
+mini-mage name_end 4 atk_end 1 def_end 4 cost_end -1 dur_end minion type_end neutral player_cls_end nil race_end epic rarity_end b stealth /b nl b spell damage +1 /b 

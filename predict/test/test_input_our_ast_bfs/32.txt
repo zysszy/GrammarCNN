@@ -1,0 +1,1 @@
+maexxna name_end 2 atk_end 8 def_end 6 cost_end -1 dur_end minion type_end neutral player_cls_end beast race_end legendary rarity_end destroy any minion damaged by this minion 

@@ -1,0 +1,1 @@
+upgrade! name_end -1 atk_end -1 def_end 1 cost_end -1 dur_end spell type_end warrior player_cls_end nil race_end rare rarity_end if you have a weapon give it +1/+1 otherwise equip a 1/3 weapon 

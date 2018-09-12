@@ -1,0 +1,1 @@
+innervate name_end -1 atk_end -1 def_end 0 cost_end -1 dur_end spell type_end druid player_cls_end nil race_end free rarity_end gain 2 mana crystals this turn only 

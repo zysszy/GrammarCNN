@@ -1,0 +1,1 @@
+magma rager name_end 5 atk_end 1 def_end 3 cost_end -1 dur_end minion type_end neutral player_cls_end nil race_end free rarity_end nil 

@@ -1,0 +1,1 @@
+piloted sky golem name_end 6 atk_end 4 def_end 6 cost_end -1 dur_end minion type_end neutral player_cls_end mech race_end epic rarity_end b deathrattle /b summon a random 4-cost minion 

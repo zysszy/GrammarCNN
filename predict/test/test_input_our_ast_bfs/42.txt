@@ -1,0 +1,1 @@
+doomguard name_end 5 atk_end 7 def_end 5 cost_end -1 dur_end minion type_end warlock player_cls_end demon race_end rare rarity_end b charge /b b battlecry /b discard two random cards 

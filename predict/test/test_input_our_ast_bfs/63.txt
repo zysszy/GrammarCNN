@@ -1,0 +1,1 @@
+black whelp name_end 2 atk_end 1 def_end 1 cost_end -1 dur_end minion type_end neutral player_cls_end dragon race_end common rarity_end nil 

@@ -1,0 +1,1 @@
+astral communion name_end -1 atk_end -1 def_end 4 cost_end -1 dur_end spell type_end druid player_cls_end nil race_end epic rarity_end gain 10 mana crystals discard your hand 

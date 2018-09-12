@@ -1,0 +1,1 @@
+silverback patriarch name_end 1 atk_end 4 def_end 3 cost_end -1 dur_end minion type_end neutral player_cls_end beast race_end common rarity_end b taunt /b 

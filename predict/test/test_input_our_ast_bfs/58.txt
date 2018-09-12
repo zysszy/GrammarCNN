@@ -1,0 +1,1 @@
+spellbender name_end 1 atk_end 3 def_end 0 cost_end -1 dur_end minion type_end mage player_cls_end nil race_end epic rarity_end nil 

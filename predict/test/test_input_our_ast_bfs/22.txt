@@ -1,0 +1,1 @@
+gnomish experimenter name_end 3 atk_end 2 def_end 3 cost_end -1 dur_end minion type_end neutral player_cls_end nil race_end rare rarity_end b battlecry /b draw a card if it's a minion transform it into a chicken 

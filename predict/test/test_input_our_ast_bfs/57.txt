@@ -1,0 +1,1 @@
+siphon soul name_end -1 atk_end -1 def_end 6 cost_end -1 dur_end spell type_end warlock player_cls_end nil race_end rare rarity_end destroy a minion restore #3 health to your hero 

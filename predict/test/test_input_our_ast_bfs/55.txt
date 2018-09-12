@@ -1,0 +1,1 @@
+redemption name_end -1 atk_end -1 def_end 1 cost_end -1 dur_end spell type_end paladin player_cls_end nil race_end common rarity_end b secret /b when one of your minions dies return it to life with 1 health 

@@ -1,0 +1,1 @@
+darkscale healer name_end 4 atk_end 5 def_end 5 cost_end -1 dur_end minion type_end neutral player_cls_end nil race_end common rarity_end b battlecry /b restore 2 health to all friendly characters 

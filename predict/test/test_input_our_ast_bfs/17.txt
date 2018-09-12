@@ -1,0 +1,1 @@
+annoy-o-tron name_end 1 atk_end 2 def_end 2 cost_end -1 dur_end minion type_end neutral player_cls_end mech race_end common rarity_end b taunt /b nl b divine shield /b 

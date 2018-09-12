@@ -1,0 +1,1 @@
+fiery war axe name_end 3 atk_end -1 def_end 2 cost_end 2 dur_end weapon type_end warrior player_cls_end nil race_end free rarity_end nil 
