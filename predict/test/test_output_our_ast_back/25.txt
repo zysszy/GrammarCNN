@@ -1,0 +1,11 @@
+1
+name ClassDef body line:0 BootyBayBodyguard_fu_nc_na_me
+id Name bases line:5 MinionCard
+s Str args line:0 Booty_Bay_Bodyguard_fu_nc_na_me
+Num args Call line:3 3_fu_nc_na_me
+attr Attribute args line:6 ALL1_fu_nc_na_me
+attr Attribute args line:8 COMMON1_fu_nc_na_me
+Num args Call line:1 1_fu_nc_na_me
+Num args Call line:2 2_fu_nc_na_me
+arg keyword keywords line:9 stealth
+arg keyword keywords line:9 spell_damage
