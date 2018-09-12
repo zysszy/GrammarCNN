@@ -1,0 +1,11 @@
+root Module body ClassDef name overload ^ ^ bases Name id taunt ^ ^ ^ ^ body FunctionDef name ENEMY_SECRETS ^ ^ args Name id gen_func ^ ^ ^ ^ body ^ ^ FunctionDef ^ ^ ^ ^ ^ ^
+body
+FunctionDef
+body  FunctionDef  body  ClassDef  body  Module  root
+root Module body ClassDef name overload ^ ^ bases Name id taunt ^ ^ ^ ^ body FunctionDef name ENEMY_SECRETS ^ ^ args Name id gen_func ^ ^ ^ ^ body ^ ^ FunctionDef ^ ^ ^ ^ ^ ^
+root Module body ClassDef name overload ^ ^ bases Name id taunt ^ ^ ^ ^ body FunctionDef name ENEMY_SECRETS ^ ^ args Name id gen_func ^ ^ ^ ^ body ^ ^ FunctionDef ^ ^ ^ ^ ^ ^
+Unknown root Module body ClassDef name ^ ^ ClassDef bases Name id ^ ^ ^ ^ ClassDef body FunctionDef name ^ ^ FunctionDef args Name id ^ ^ ^ ^ FunctionDef ^ ^ body ^ ^ ^ ^ ^ ^
+Unknown Unknown root Module body ClassDef ^ ^ body ClassDef bases Name ^ ^ ^ ^ body ClassDef body FunctionDef ^ ^ body FunctionDef args Name ^ ^ ^ ^ body ^ ^ ClassDef ^ ^ ^ ^ ^ ^
+root Module body ClassDef name overload ^ ^ bases Name id taunt ^ ^ ^ ^ body FunctionDef name ENEMY_SECRETS ^ ^ args Name id gen_func ^ ^ ^ ^ body ^ ^ FunctionDef ^ ^ ^ ^ ^ ^
+Unknown root Module body ClassDef name ^ ^ ClassDef bases Name id ^ ^ ^ ^ ClassDef body FunctionDef name ^ ^ FunctionDef args Name id ^ ^ ^ ^ FunctionDef ^ ^ body ^ ^ ^ ^ ^ ^
+Unknown Unknown root Module body ClassDef ^ ^ body ClassDef bases Name ^ ^ ^ ^ body ClassDef body FunctionDef ^ ^ body FunctionDef args Name ^ ^ ^ ^ body ^ ^ ClassDef ^ ^ ^ ^ ^ ^

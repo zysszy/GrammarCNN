@@ -1,0 +1,2 @@
+root Stmt VariableDeclarationStatement PrimitiveType gen ^ ^ VariableDeclarationFragment End ^ ^ ^ ^ ^ 
+END

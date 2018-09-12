@@ -1,0 +1,231 @@
+root true Stmt
+Stmt true VariableDeclarationStatement Stmt
+VariableDeclarationStatement true PrimitiveType VariableDeclarationFragment
+PrimitiveType true gen
+VariableDeclarationFragment true SimpleName
+VariableDeclarationFragment true CastExpression
+VariableDeclarationFragment true End
+SimpleName true gen
+CastExpression true SimpleType MethodInvocation
+SimpleType true gen SimpleName
+MethodInvocation true ThisExpression
+MethodInvocation true SimpleName
+MethodInvocation true StringLiteral
+MethodInvocation true End
+SimpleName true gen_func
+StringLiteral true gen
+Stmt true IfStatement Stmt
+IfStatement true InfixExpression Stmt
+InfixExpression true gen
+InfixExpression true SimpleName
+InfixExpression true NumberLiteral
+InfixExpression true End
+NumberLiteral true gen
+Stmt true ReturnStatement
+ReturnStatement true MethodInvocation
+MethodInvocation true ClassInstanceCreation
+ClassInstanceCreation true SimpleType
+ClassInstanceCreation true MethodInvocation
+ClassInstanceCreation true End
+MethodInvocation true QualifiedName
+QualifiedName true gen
+ReturnStatement true BooleanLiteral
+BooleanLiteral true gen
+VariableDeclarationStatement true SimpleType VariableDeclarationFragment
+VariableDeclarationFragment true MethodInvocation
+MethodInvocation true MethodInvocation
+InfixExpression true NullLiteral
+Stmt true IfStatement
+Stmt true ExpressionStatement Stmt
+ExpressionStatement true MethodInvocation
+MethodInvocation true BooleanLiteral
+InfixExpression true InfixExpression
+VariableDeclarationFragment true ClassInstanceCreation
+MethodInvocation true NumberLiteral
+Stmt true ForStatement Stmt
+ForStatement true VariableDeclarationExpression InfixExpression PostfixExpression Stmt
+VariableDeclarationExpression true PrimitiveType VariableDeclarationFragment
+VariableDeclarationFragment true NumberLiteral
+PostfixExpression true gen SimpleName
+Stmt true ExpressionStatement
+IfStatement true MethodInvocation Stmt
+InfixExpression true MethodInvocation
+ClassInstanceCreation true NumberLiteral
+ClassInstanceCreation true QualifiedName
+ClassInstanceCreation true SimpleName
+Stmt true EnhancedForStatement Stmt
+EnhancedForStatement true SingleVariableDeclaration MethodInvocation Stmt
+SingleVariableDeclaration true SimpleType SimpleName
+ClassInstanceCreation true StringLiteral
+ExpressionStatement true Assignment
+Assignment true gen SimpleName MethodInvocation
+ClassInstanceCreation true BooleanLiteral
+VariableDeclarationFragment true BooleanLiteral
+Stmt true WhileStatement Stmt
+WhileStatement true InfixExpression Stmt
+InfixExpression true PrefixExpression
+PrefixExpression true gen
+PrefixExpression true MethodInvocation
+PrefixExpression true End
+MethodInvocation true CastExpression
+ReturnStatement true SimpleName
+InfixExpression true QualifiedName
+MethodInvocation true InfixExpression
+InfixExpression true StringLiteral
+VariableDeclarationFragment true InfixExpression
+ClassInstanceCreation true NullLiteral
+MethodInvocation true NullLiteral
+VariableDeclarationStatement true ParameterizedType VariableDeclarationFragment
+ParameterizedType true gen SimpleType SimpleType
+EnhancedForStatement true SingleVariableDeclaration SimpleName Stmt
+InfixExpression true ParenthesizedExpression
+ParenthesizedExpression true InstanceofExpression
+InstanceofExpression true SimpleName SimpleType
+CastExpression true SimpleType SimpleName
+Stmt true BreakStatement
+ExpressionStatement true PostfixExpression
+Assignment true gen SimpleName NumberLiteral
+Stmt true EnhancedForStatement
+VariableDeclarationStatement true Modifier SimpleType VariableDeclarationFragment
+Modifier true gen
+IfStatement true PrefixExpression Stmt
+ClassInstanceCreation true InfixExpression
+ClassInstanceCreation true ClassInstanceCreation
+Stmt true WhileStatement
+IfStatement true InfixExpression Stmt Stmt
+IfStatement true MethodInvocation Stmt Stmt
+ExpressionStatement true SuperMethodInvocation
+SuperMethodInvocation true SimpleName
+SuperMethodInvocation true End
+VariableDeclarationFragment true NullLiteral
+Assignment true gen SimpleName SimpleName
+MethodInvocation true PrefixExpression
+PrefixExpression true NumberLiteral
+MethodInvocation true ParenthesizedExpression
+ParenthesizedExpression true ClassInstanceCreation
+IfStatement true InstanceofExpression Stmt
+Assignment true gen SimpleName BooleanLiteral
+IfStatement true SimpleName Stmt Stmt
+ClassInstanceCreation true ParameterizedType
+ParameterizedType true gen SimpleType
+ReturnStatement true InfixExpression
+PrefixExpression true ParenthesizedExpression
+InfixExpression true FieldAccess
+FieldAccess true ThisExpression SimpleName
+MethodInvocation true FieldAccess
+Stmt true DoStatement Stmt
+DoStatement true Stmt InfixExpression
+ParenthesizedExpression true InfixExpression
+Assignment true gen SimpleName CastExpression
+Assignment true gen SimpleName ClassInstanceCreation
+WhileStatement true PrefixExpression Stmt
+PrefixExpression true SimpleName
+CastExpression true PrimitiveType ParenthesizedExpression
+MethodInvocation true TypeLiteral
+TypeLiteral true SimpleType
+InfixExpression true InstanceofExpression
+InstanceofExpression true MethodInvocation SimpleType
+ParenthesizedExpression true CastExpression
+VariableDeclarationFragment true QualifiedName
+Assignment true gen SimpleName QualifiedName
+ParenthesizedExpression true ConditionalExpression
+ConditionalExpression true InfixExpression
+ConditionalExpression true StringLiteral
+ConditionalExpression true End
+Assignment true gen SimpleName InfixExpression
+IfStatement true MethodInvocation Stmt IfStatement
+IfStatement true SimpleName Stmt
+VariableDeclarationFragment true ConditionalExpression
+ConditionalExpression true MethodInvocation
+Stmt true SwitchStatement
+SwitchStatement true SimpleName
+SwitchStatement true SwitchCase
+SwitchStatement true ExpressionStatement
+SwitchStatement true BreakStatement
+SwitchStatement true End
+SwitchCase true StringLiteral
+IfStatement true InfixExpression Stmt IfStatement
+SuperMethodInvocation true MethodInvocation
+ParenthesizedExpression true MethodInvocation
+IfStatement true InfixExpression ExpressionStatement
+CastExpression true ParameterizedType MethodInvocation
+ReturnStatement true SuperMethodInvocation
+Assignment true gen SimpleName SuperMethodInvocation
+ForStatement true VariableDeclarationExpression MethodInvocation Stmt
+VariableDeclarationExpression true ParameterizedType VariableDeclarationFragment
+DoStatement true Stmt PrefixExpression
+ParameterizedType true gen SimpleType SimpleType SimpleType
+SingleVariableDeclaration true ParameterizedType SimpleName
+SimpleType true gen QualifiedName
+DoStatement true Stmt SimpleName
+ClassInstanceCreation true ConditionalExpression
+ConditionalExpression true SimpleName
+ClassInstanceCreation true ParenthesizedExpression
+VariableDeclarationStatement true Modifier PrimitiveType VariableDeclarationFragment
+Stmt true ForStatement
+Assignment true gen SimpleName StringLiteral
+IfStatement true InstanceofExpression Stmt IfStatement
+ParameterizedType true gen SimpleType SimpleType ParameterizedType
+ConditionalExpression true NumberLiteral
+VariableDeclarationFragment true StringLiteral
+CastExpression true PrimitiveType MethodInvocation
+ClassInstanceCreation true PrefixExpression
+EnhancedForStatement true SingleVariableDeclaration FieldAccess Stmt
+ParameterizedType true gen SimpleType ParameterizedType
+VariableDeclarationStatement true ArrayType VariableDeclarationFragment
+ArrayType true gen SimpleType Dimension
+MethodInvocation true ArrayCreation
+ArrayCreation true ArrayType NumberLiteral
+VariableDeclarationFragment true ArrayAccess
+ArrayAccess true SimpleName MethodInvocation
+EnhancedForStatement true SingleVariableDeclaration CastExpression Stmt
+IfStatement true PrefixExpression Stmt Stmt
+ReturnStatement true PrefixExpression
+EnhancedForStatement true SingleVariableDeclaration ArrayCreation Stmt
+ArrayCreation true ArrayType ArrayInitializer
+ArrayInitializer true StringLiteral StringLiteral StringLiteral StringLiteral StringLiteral
+IfStatement true InstanceofExpression Stmt Stmt
+ExpressionStatement true PrefixExpression
+EnhancedForStatement true SingleVariableDeclaration QualifiedName Stmt
+Assignment true gen SimpleName PrefixExpression
+Stmt true SwitchStatement Stmt
+SwitchStatement true MethodInvocation
+SwitchStatement true VariableDeclarationStatement
+SwitchStatement true IfStatement
+SwitchCase true SimpleName
+Stmt true ContinueStatement
+WhileStatement true MethodInvocation Stmt
+ReturnStatement true ParenthesizedExpression
+VariableDeclarationFragment true Dimension
+MethodInvocation true ArrayAccess
+ArrayAccess true SimpleName NumberLiteral
+WhileStatement true BooleanLiteral Stmt
+Stmt true EmptyStatement
+Stmt true LabeledStatement Stmt
+LabeledStatement true SimpleName EnhancedForStatement
+BreakStatement true SimpleName
+Stmt true LabeledStatement
+LabeledStatement true SimpleName WhileStatement
+Assignment true gen SimpleName ParenthesizedExpression
+Assignment true gen QualifiedName MethodInvocation
+Assignment true gen QualifiedName NumberLiteral
+PostfixExpression true gen QualifiedName
+ParenthesizedExpression true StringLiteral
+InfixExpression true BooleanLiteral
+IfStatement true InfixExpression BreakStatement
+IfStatement true SuperMethodInvocation Stmt
+MethodInvocation true ConditionalExpression
+ConditionalExpression true NullLiteral
+Assignment true gen SimpleName ConditionalExpression
+ConditionalExpression true ParenthesizedExpression
+IfStatement true InfixExpression ReturnStatement
+VariableDeclarationExpression true SimpleType VariableDeclarationFragment
+ContinueStatement true SimpleName
+IfStatement true PrefixExpression Stmt IfStatement
+IfStatement true SimpleName ExpressionStatement
+Assignment true gen QualifiedName SimpleName
+Stmt true ThrowStatement
+ThrowStatement true ClassInstanceCreation
+Stmt true EmptyStatement Stmt
+Assignment true gen SimpleName NullLiteral
+SwitchStatement true ReturnStatement
