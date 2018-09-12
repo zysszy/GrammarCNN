@@ -1,0 +1,10 @@
+2
+1
+name ClassDef body line:0 SolemnVigil
+id Name bases line:5 SpellCard
+s Str args line:0 Solemn_Vigil
+Num args Call line:3 5
+attr Attribute args line:6 PALADIN
+attr Attribute args line:8 COMMON
+Num args Call line:1 -1
+id Name target line:9 n

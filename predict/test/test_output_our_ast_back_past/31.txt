@@ -1,0 +1,10 @@
+1
+name ClassDef body line:0 DeathsBite
+id Name bases line:5 WeaponCard
+s Str args line:0 Death's_Bite
+Num args Call line:3 4
+attr Attribute args line:6 WARRIOR
+attr Attribute args line:8 COMMON
+Num args Call line:1 4
+Num args Call line:4 2
+arg keyword keywords line:9 deathrattle

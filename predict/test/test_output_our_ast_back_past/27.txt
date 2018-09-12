@@ -1,0 +1,10 @@
+2
+name ClassDef body line:0 ScarletPurifier
+id Name bases line:5 MinionCard
+s Str args line:0 Scarlet_Purifier
+Num args Call line:3 3
+attr Attribute args line:6 PALADIN
+attr Attribute args line:8 RARE
+arg keyword keywords line:9 battlecry
+Num args Call line:1 4
+Num args Call line:2 3

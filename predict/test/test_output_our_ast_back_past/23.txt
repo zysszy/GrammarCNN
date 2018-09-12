@@ -1,0 +1,11 @@
+10
+name ClassDef body line:0 IronJuggernaut
+id Name bases line:5 MinionCard
+s Str args line:0 Iron_Juggernaut
+Num args Call line:3 6
+attr Attribute args line:6 WARRIOR
+attr Attribute args line:8 LEGENDARY
+attr Attribute value line:7 MECH
+arg keyword keywords line:9 battlecry
+Num args Call line:1 6
+Num args Call line:2 5

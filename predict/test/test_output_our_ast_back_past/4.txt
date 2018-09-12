@@ -1,0 +1,8 @@
+name ClassDef body line:0 FieryWarAxe
+id Name bases line:5 WeaponCard
+s Str args line:0 Fiery_War_Axe
+Num args Call line:3 2
+attr Attribute args line:6 WARRIOR
+attr Attribute args line:8 FREE
+Num args Call line:1 3
+Num args Call line:4 2

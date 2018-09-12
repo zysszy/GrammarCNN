@@ -1,0 +1,11 @@
+2
+2
+name ClassDef body line:0 FloatingWatcher
+id Name bases line:5 MinionCard
+s Str args line:0 Floating_Watcher
+Num args Call line:3 5
+attr Attribute args line:6 WARLOCK
+attr Attribute args line:8 COMMON
+attr Attribute value line:7 DEMON
+Num args Call line:1 4
+Num args Call line:2 4

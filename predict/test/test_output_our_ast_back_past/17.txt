@@ -1,0 +1,11 @@
+name ClassDef body line:0 AnnoyoTron
+id Name bases line:5 MinionCard
+s Str args line:0 Annoy-o-Tron
+Num args Call line:3 2
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+attr Attribute value line:7 MECH
+Num args Call line:1 1
+Num args Call line:2 2
+arg keyword keywords line:9 divine_shield
+arg keyword keywords line:9 taunt

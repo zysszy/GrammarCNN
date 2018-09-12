@@ -1,0 +1,11 @@
+name ClassDef body line:0 Voljin
+id Name bases line:5 MinionCard
+s Str args line:0 Vol'jin
+Num args Call line:3 5
+attr Attribute args line:6 PRIEST
+attr Attribute args line:8 LEGENDARY
+arg keyword keywords line:9 battlecry
+s Str args line:9 health
+s Str args line:9 health
+Num args Call line:1 6
+Num args Call line:2 2

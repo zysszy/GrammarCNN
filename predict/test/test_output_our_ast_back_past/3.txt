@@ -1,0 +1,10 @@
+2
+name ClassDef body line:0 DarkscaleHealer
+id Name bases line:5 MinionCard
+s Str args line:0 Darkscale_Healer
+Num args Call line:3 5
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+arg keyword keywords line:9 battlecry
+Num args Call line:1 4
+Num args Call line:2 5

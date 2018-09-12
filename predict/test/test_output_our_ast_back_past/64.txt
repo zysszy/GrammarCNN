@@ -1,0 +1,11 @@
+1
+1
+name ClassDef body line:0 DragonkinSorcerer
+id Name bases line:5 MinionCard
+s Str args line:0 Dragonkin_Sorcerer
+Num args Call line:3 4
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+attr Attribute value line:7 DRAGON
+Num args Call line:1 3
+Num args Call line:2 5

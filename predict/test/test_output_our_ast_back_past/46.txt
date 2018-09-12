@@ -1,0 +1,9 @@
+name ClassDef body line:0 Gnoll
+id Name bases line:5 MinionCard
+s Str args line:0 Gnoll
+Num args Call line:3 2
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+Num args Call line:1 2
+Num args Call line:2 2
+arg keyword keywords line:9 taunt

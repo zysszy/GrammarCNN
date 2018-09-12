@@ -1,0 +1,13 @@
+name ClassDef body line:0 EchoOfMedivh
+id Name bases line:5 SpellCard
+s Str args line:0 Echo_of_Medivh
+Num args Call line:3 4
+attr Attribute args line:6 MAGE
+attr Attribute args line:8 EPIC
+id Name target line:9 minion
+id Name value line:9 copy
+id Name args line:9 minion
+id Name value line:9 minion
+attr Attribute args line:9 hand
+attr Attribute value line:9 hand
+id Name value line:9 minion

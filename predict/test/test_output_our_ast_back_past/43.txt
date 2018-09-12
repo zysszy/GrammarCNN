@@ -1,0 +1,11 @@
+3
+name ClassDef body line:0 EarthElemental
+id Name bases line:5 MinionCard
+s Str args line:0 Earth_Elemental
+Num args Call line:3 5
+attr Attribute args line:6 SHAMAN
+attr Attribute args line:8 EPIC
+arg keyword keywords line:9 overload
+Num args Call line:1 7
+Num args Call line:2 8
+arg keyword keywords line:9 taunt

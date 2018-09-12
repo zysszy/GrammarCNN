@@ -1,0 +1,10 @@
+2
+1
+name ClassDef body line:0 SummoningPortal
+id Name bases line:5 MinionCard
+s Str args line:0 Summoning_Portal
+Num args Call line:3 4
+attr Attribute args line:6 WARLOCK
+attr Attribute args line:8 COMMON
+Num args Call line:1 0
+Num args Call line:2 4

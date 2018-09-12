@@ -1,0 +1,10 @@
+2
+name ClassDef body line:0 Lightwarden
+id Name bases line:5 MinionCard
+s Str args line:0 Lightwarden
+Num args Call line:3 1
+attr Attribute args line:6 ALL
+attr Attribute args line:8 RARE
+Num args Call line:1 1
+Num args Call line:2 2
+Num args Call line:2 2

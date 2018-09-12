@@ -1,0 +1,10 @@
+1
+1
+3
+2
+name ClassDef body line:0 PowerOfTheWild
+id Name bases line:5 SpellCard
+s Str args line:0 Power_of_the_Wild
+Num args Call line:3 2
+attr Attribute args line:6 DRUID
+attr Attribute args line:8 COMMON

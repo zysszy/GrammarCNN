@@ -1,0 +1,8 @@
+name ClassDef body line:0 BladeFlurry
+id Name bases line:5 SpellCard
+s Str args line:0 Blade_Flurry
+Num args Call line:3 2
+attr Attribute args line:6 ROGUE
+attr Attribute args line:8 RARE
+attr Attribute left line:9 weapon
+attr Attribute value line:9 weapon

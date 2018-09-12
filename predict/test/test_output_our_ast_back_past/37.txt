@@ -1,0 +1,8 @@
+name ClassDef body line:0 BaineBloodhoof
+id Name bases line:5 MinionCard
+s Str args line:0 Baine_Bloodhoof
+Num args Call line:3 4
+attr Attribute args line:6 ALL
+attr Attribute args line:8 LEGENDARY
+Num args Call line:1 4
+Num args Call line:2 5

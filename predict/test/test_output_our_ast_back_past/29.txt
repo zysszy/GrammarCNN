@@ -1,0 +1,16 @@
+1
+1
+name ClassDef body line:0 TinkertownTechnician
+id Name bases line:5 MinionCard
+module ImportFrom body line:0 hearthbreaker.cards.spells.neutral
+level ImportFrom body line:3 0
+s Str args line:0 Tinkertown_Technician
+Num args Call line:1 3
+id Name value line:8 CHARACTER_CLASS
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+arg keyword keywords line:9 battlecry
+attr Attribute args line:9 MECH
+attr Attribute args line:9 MECH
+Num args Call line:2 3
+Num args Call line:3 3

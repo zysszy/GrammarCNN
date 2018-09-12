@@ -1,0 +1,7 @@
+name ClassDef body line:0 Spellbender
+id Name bases line:5 SecretCard
+s Str args line:0 Spellbender
+Num args Call line:3 3
+attr Attribute args line:6 MAGE
+attr Attribute args line:8 EPIC
+Num value Index line:4 -1

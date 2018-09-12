@@ -1,0 +1,10 @@
+2
+name ClassDef body line:0 CogmastersWrench
+id Name bases line:5 WeaponCard
+s Str args line:0 Cogmaster's_Wrench
+Num args Call line:3 3
+attr Attribute args line:6 ROGUE
+attr Attribute args line:8 EPIC
+Num args Call line:1 1
+Num args Call line:4 3
+attr Attribute args line:9 MECH

@@ -1,0 +1,10 @@
+name ClassDef body line:0 SilverbackPatriarch
+id Name bases line:5 MinionCard
+s Str args line:0 Silverback_Patriarch
+Num args Call line:3 3
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+attr Attribute value line:7 BEAST
+Num args Call line:1 1
+Num args Call line:2 4
+arg keyword keywords line:9 taunt

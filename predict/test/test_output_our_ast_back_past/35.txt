@@ -1,0 +1,11 @@
+15
+name ClassDef body line:0 Alexstrasza
+id Name bases line:5 MinionCard
+s Str args line:0 Alexstrasza
+Num args Call line:3 9
+attr Attribute args line:6 ALL
+attr Attribute args line:8 LEGENDARY
+attr Attribute value line:7 DRAGON
+arg keyword keywords line:9 battlecry
+Num args Call line:1 8
+Num args Call line:2 8

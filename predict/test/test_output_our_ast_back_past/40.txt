@@ -1,0 +1,11 @@
+name ClassDef body line:0 Conceal
+id Name bases line:5 SpellCard
+s Str args line:0 Conceal
+Num args Call line:3 1
+attr Attribute args line:6 ROGUE
+attr Attribute args line:8 COMMON
+id Name target line:9 minion
+attr Attribute iter line:9 minions
+id Name value line:9 minion
+attr Attribute operand line:9 stealth
+id Name value line:9 minion

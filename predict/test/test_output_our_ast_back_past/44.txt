@@ -1,0 +1,13 @@
+2
+name ClassDef body line:0 ExplosiveTrap
+id Name bases line:5 SecretCard
+s Str args line:0 Explosive_Trap
+Num args Call line:3 2
+attr Attribute args line:6 HUNTER
+attr Attribute args line:8 COMMON
+id Name args line:9 Hero
+id Name targets line:9 enemies
+id Name value line:9 enemies
+attr Attribute args line:9 hero
+id Name iter line:9 enemies
+Num args Call line:3 2

@@ -1,0 +1,9 @@
+name ClassDef body line:0 GnomishExperimenter
+id Name bases line:5 MinionCard
+s Str args line:0 Gnomish_Experimenter
+Num args Call line:3 3
+attr Attribute args line:6 ALL
+attr Attribute args line:8 RARE
+arg keyword keywords line:9 battlecry
+Num args Call line:1 3
+Num args Call line:2 2

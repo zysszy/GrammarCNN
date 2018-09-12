@@ -1,0 +1,16 @@
+name ClassDef body line:0 Misdirection
+id Name bases line:5 SecretCard
+s Str args line:0 Misdirection
+Num args Call line:3 2
+attr Attribute args line:6 HUNTER
+attr Attribute args line:8 RARE
+s Str args line:9 character_attack
+s Str args line:9 character_attack
+id Name args line:9 character
+id Name args line:9 Hero
+id Name value line:9 character
+id Name value line:9 character
+attr Attribute args line:9 hero
+attr Attribute args line:9 hero
+id Name value line:9 character
+id Name value line:9 character

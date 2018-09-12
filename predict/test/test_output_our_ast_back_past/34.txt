@@ -1,0 +1,11 @@
+name ClassDef body line:0 Voidcaller
+id Name bases line:5 MinionCard
+s Str args line:0 Voidcaller
+Num args Call line:3 4
+attr Attribute args line:6 WARLOCK
+attr Attribute args line:8 COMMON
+attr Attribute value line:7 DEMON
+Num args Call line:1 3
+Num args Call line:2 4
+arg keyword keywords line:9 deathrattle
+attr Attribute args line:7 DEMON

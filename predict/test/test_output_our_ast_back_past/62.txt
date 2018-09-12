@@ -1,0 +1,8 @@
+name ClassDef body line:0 Wisp
+id Name bases line:5 MinionCard
+s Str args line:0 Wisp
+Num args Call line:3 0
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+Num args Call line:1 1
+Num args Call line:2 1

@@ -1,0 +1,12 @@
+2
+1
+name ClassDef body line:0 NobleSacrifice
+id Name bases line:5 SecretCard
+s Str args line:0 Noble_Sacrifice
+Num args Call line:3 1
+attr Attribute args line:6 PALADIN
+attr Attribute args line:8 COMMON
+id Name args line:9 target
+id Name targets line:9 defender
+id Name value line:9 defender
+Num value Index line:1 -1

@@ -1,0 +1,9 @@
+name ClassDef body line:0 Maexxna
+id Name bases line:5 MinionCard
+s Str args line:0 Maexxna
+Num args Call line:3 6
+attr Attribute args line:6 ALL
+attr Attribute args line:8 LEGENDARY
+attr Attribute value line:7 BEAST
+Num args Call line:1 2
+Num args Call line:2 8

@@ -1,0 +1,12 @@
+3
+name ClassDef body line:0 ShadowMadness
+id Name bases line:5 SpellCard
+s Str args line:0 Shadow_Madness
+Num args Call line:3 4
+attr Attribute args line:6 PRIEST
+attr Attribute args line:8 RARE
+id Name targets line:9 minion
+id Name value line:9 minion
+id Name value line:9 minion
+id Name value line:9 minion
+id Name value line:9 minion

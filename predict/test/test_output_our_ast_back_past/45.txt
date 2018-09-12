@@ -1,0 +1,8 @@
+name ClassDef body line:0 FlameOfAzzinoth
+id Name bases line:5 MinionCard
+s Str args line:0 Flame_of_Azzinoth
+Num args Call line:3 1
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+Num args Call line:1 2
+Num args Call line:2 1

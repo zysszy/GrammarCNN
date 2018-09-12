@@ -1,0 +1,13 @@
+10
+name ClassDef body line:0 AstralCommunion
+id Name bases line:5 SpellCard
+s Str args line:0 Astral_Communion
+Num args Call line:3 4
+attr Attribute args line:6 DRUID
+attr Attribute args line:8 EPIC
+id Name target line:9 card
+attr Attribute iter line:9 hand
+id Name value line:9 card
+id Name args line:9 card
+attr Attribute targets line:9 hand
+attr Attribute targets line:9 mana

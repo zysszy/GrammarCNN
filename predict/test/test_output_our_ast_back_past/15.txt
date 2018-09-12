@@ -1,0 +1,12 @@
+1
+name ClassDef body line:0 WrathOfAirTotem
+id Name bases line:5 MinionCard
+s Str args line:0 Wrath_of_Air_Totem
+Num args Call line:3 1
+attr Attribute args line:6 SHAMAN
+attr Attribute args line:8 FREE
+attr Attribute args line:7 TOTEM
+Num args Call line:1 0
+Num args Call line:2 2
+arg keyword keywords line:9 spell_damage
+Num value keyword line:3 1

@@ -1,0 +1,16 @@
+1
+name ClassDef body line:0 Redemption
+id Name bases line:5 SecretCard
+s Str args line:0 Redemption
+Num args Call line:3 1
+attr Attribute args line:6 PALADIN
+attr Attribute args line:8 COMMON
+id Name args line:9 minion
+id Name value line:9 minion
+id Name value line:9 minion
+id Name value line:9 minion
+id Name value line:9 minion
+id Name value line:9 minion
+attr Attribute args line:9 minions
+attr Attribute targets line:9 health
+Num value Assign line:3 1

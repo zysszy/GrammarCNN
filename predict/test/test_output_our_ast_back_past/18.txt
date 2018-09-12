@@ -1,0 +1,9 @@
+2
+name ClassDef body line:0 BurlyRockjawTrogg
+id Name bases line:5 MinionCard
+s Str args line:0 Burly_Rockjaw_Trogg
+Num args Call line:3 4
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+Num args Call line:1 3
+Num args Call line:2 5

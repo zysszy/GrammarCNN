@@ -1,0 +1,12 @@
+1
+name ClassDef body line:0 MiniMage
+id Name bases line:5 MinionCard
+s Str args line:0 Mini-Mage
+Num args Call line:3 4
+attr Attribute args line:6 ALL
+attr Attribute args line:8 EPIC
+Num args Call line:1 4
+Num args Call line:2 1
+arg keyword keywords line:9 stealth
+arg keyword keywords line:9 spell_damage
+Num value keyword line:2 1

@@ -1,0 +1,8 @@
+name ClassDef body line:0 DefenderMinion
+id Name bases line:5 MinionCard
+s Str args line:0 Defender
+Num args Call line:3 1
+attr Attribute args line:6 PALADIN
+attr Attribute args line:8 COMMON
+Num args Call line:1 2
+Num args Call line:2 1

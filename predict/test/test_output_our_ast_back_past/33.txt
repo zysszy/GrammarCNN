@@ -1,0 +1,12 @@
+1
+2
+name ClassDef body line:0 SludgeBelcher
+id Name bases line:5 MinionCard
+s Str args line:0 Sludge_Belcher
+Num args Call line:3 5
+attr Attribute args line:6 ALL
+attr Attribute args line:8 RARE
+Num args Call line:1 3
+Num args Call line:2 5
+arg keyword keywords line:9 taunt
+arg keyword keywords line:9 deathrattle

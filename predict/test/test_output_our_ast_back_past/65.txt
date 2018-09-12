@@ -1,0 +1,11 @@
+1
+name ClassDef body line:0 HungryDragon
+id Name bases line:5 MinionCard
+s Str args line:0 Hungry_Dragon
+Num args Call line:3 4
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+attr Attribute value line:7 DRAGON
+arg keyword keywords line:9 battlecry
+Num args Call line:1 5
+Num args Call line:2 6

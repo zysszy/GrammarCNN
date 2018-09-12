@@ -1,0 +1,10 @@
+2
+name ClassDef body line:0 Innervate
+id Name bases line:5 SpellCard
+s Str args line:0 Innervate
+Num args Call line:3 0
+attr Attribute args line:6 DRUID
+attr Attribute args line:8 FREE
+attr Attribute left line:9 mana
+attr Attribute target line:9 mana
+attr Attribute targets line:9 mana

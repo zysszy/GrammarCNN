@@ -1,0 +1,9 @@
+name ClassDef body line:0 StormwindKnight
+id Name bases line:5 MinionCard
+s Str args line:0 Stormwind_Knight
+Num args Call line:3 4
+attr Attribute args line:6 ALL
+attr Attribute args line:8 COMMON
+Num args Call line:1 2
+Num args Call line:2 5
+arg keyword keywords line:9 charge
