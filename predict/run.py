@@ -534,6 +534,8 @@ def getAction(sess, Code_gen_model, JavaOut):
     treeset = getnode_gen(JavaOut)
     treesetnew = back(treeset)
     print(treeset[0])
+    if len(treeset[0].split()) >= 800:
+        return np.zeros([1, classnum])
     if len(treeset) == 0 :
         JavaOut.is_end = True
         return np.zeros([1,classnum])
@@ -594,9 +596,10 @@ def getAction_var(sess, Code_gen_model, JavaOut):
     input_Tree = Tree2matrix_var(treeset[0])
     input_Root = Root2matrix_var(JavaOut.Root)
     VarList = []
-    for word in JavaOut.VarList:
-        VarList.append(word+"_var")
-    input_A = Tree2matrix_var2(VarList,400)
+    res = np.zeros([1,400])
+    for i in range(len(JavaOut.VarList)):
+        res[0,i] = JavaOut.VarList[i]
+    input_A = res
     input_PTree = Tree2matrix_var(treeset[1])
     input_GPTree = Tree2matrix_var(treeset[2])
     FuncList = []
@@ -627,12 +630,13 @@ def getAction_func(sess, Code_gen_model, JavaOut):
     treeset.append(JavaOut.FatherTree)
     treeset.append(JavaOut.GrandFatherTree)
     treeset = back(treeset)
-    input_Tree = Tree2matrix_func(treeset[0])#.replace("ALL1","ALL").replace("COMMON1","COMMON").replace("TOTEM1","TOTEM"))
+    input_Tree = Tree2matrix_func(treeset[0])
     input_Root = Root2matrix_func(JavaOut.Root)
     RuleList = []
-    for word in JavaOut.FuncList:
-        RuleList.append(word + "_rule")
-    input_A = Tree2matrix_func2(RuleList,400)
+    res = np.zeros([1,400])
+    for i in range(len(JavaOut.FuncList)):
+        res[0,i] = JavaOut.FuncList[i]
+    input_A = res
     input_PTree = Tree2matrix_func(treeset[1])
     input_GPTree = Tree2matrix_func(treeset[2])
     FuncList = []
@@ -959,7 +963,7 @@ def BeamSearch(sess, sess_var, sess_func, Code_gen_model, gen_var, gen_func, Nl,
                                     if len(JavaOutNext.FuncList) >= 40:
                                         JavaOutNext.is_end = True
                                     else:
-                                        JavaOutNext.FuncList.append(Func[i])
+                                        JavaOutNext.FuncList.append(i + 1)
                                         JavaOutNext.Probility = JavaOut.Probility * genres[0, i]
                                     if JavaOutNext.state == "end":
                                         JavaOutNext.is_end = True
@@ -1001,7 +1005,7 @@ def BeamSearch(sess, sess_var, sess_func, Code_gen_model, gen_var, gen_func, Nl,
                                     JavaOutNext.Tree = str(JavaOutNext.Tree).replace("gen",what2replace)
                                     JavaOutNext.TreeWithEnd = str(JavaOutNext.TreeWithEnd).replace("gen_func",what2replace)
                       #              print (JavaOutNext.Tree)
-                                    if len(JavaOutNext.VarList) >= 100:
+                                    if len(JavaOutNext.VarList) >= 400:
                                         JavaOutNext.is_end = True
                                     else:
                                         if Var[i] == "line:9" and not (fa == "Num" or fa == "num"):
@@ -1009,9 +1013,9 @@ def BeamSearch(sess, sess_var, sess_func, Code_gen_model, gen_var, gen_func, Nl,
                                                 what2replace = "target"
                                             if what2replace == "targets0" :
                                                 what2replace = "targets"
-                                            JavaOutNext.VarList.append(what2replace)
+                                            JavaOutNext.VarList.append(i + 1)
                                         else :
-                                            JavaOutNext.VarList.append(Var[i])
+                                            JavaOutNext.VarList.append(i + 1)
                                         #print (JavaOutNext.VarList)
                                         JavaOutNext.Probility = JavaOut.Probility * genres[0, i]
                                         if what2replace == "-12345":
