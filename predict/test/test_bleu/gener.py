@@ -69,9 +69,9 @@ def getnumberstack (numberstack):
     return now
     
 for i in range(1,67):
-    global numberstack
+    #global numberstack
     numberstack = []
-    global list2wordlist
+    #global list2wordlist
     list2wordlist = []
     readbacklist(i)
     f = open("../../out/"+str(i)+".txt","r")
