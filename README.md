@@ -20,3 +20,4 @@ python3 run.py [pre|eval]
   * Tensorflow 1.3.1
   * Python 3.5
   * Ubuntu 16.04
+  * Java 1.8
