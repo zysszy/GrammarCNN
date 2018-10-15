@@ -21,3 +21,37 @@ python3 run.py [pre|eval]
   * Python 3.5
   * Ubuntu 16.04
   * Java 1.8
+  
+# Examples
+We successly generated.
+ ```
+class BootyBayBodyguard(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Booty Bay Bodyguard", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+     def create_minion (self, player) :
+        return Minion(5, 4, taunt = True)
+```
+Example:
+```
+class BootyBayBodyguard(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Booty Bay Bodyguard", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
+     def create_minion (self, player) :
+        return Minion(5, 4, taunt = True)
+```
+ Our model tends to generate a structrual correct code, which leads to a higher StrAcc but a similar BLEU compared with previous works.
+```
+class AnnoyoTron(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Annoy-o-Tron", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.MECH, divine_shield = True)
+     def create_minion (self, player) :
+        return Minion(1, 2, taunt = True, divine_shield = True)
+```
+Example:
+```
+class AnnoyoTron(MinionCard ) : 
+    def __init__ (self) :
+        super().__init__("Annoy-o-Tron", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.MECH)
+     def create_minion (self, player) :
+        return Minion(1, 2, divine_shield = True, taunt = True)
+ ```
