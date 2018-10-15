@@ -40,6 +40,7 @@ class BootyBayBodyguard(MinionCard ) :
         return Minion(5, 4, taunt = True)
 ```
  Our model tends to generate a structrual correct code, which leads to a higher StrAcc but a similar BLEU compared with previous works.
+ 
  Code we generated.
 ```
 class AnnoyoTron(MinionCard ) : 
