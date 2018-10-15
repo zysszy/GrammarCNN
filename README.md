@@ -28,7 +28,7 @@ We successly generated.
 class BootyBayBodyguard(MinionCard ) : 
     def __init__ (self) :
         super().__init__("Booty Bay Bodyguard", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
-     def create_minion (self, player) :
+    def create_minion (self, player) :
         return Minion(5, 4, taunt = True)
 ```
 Example Code:
@@ -46,7 +46,7 @@ class BootyBayBodyguard(MinionCard ) :
 class AnnoyoTron(MinionCard ) : 
     def __init__ (self) :
         super().__init__("Annoy-o-Tron", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.MECH, divine_shield = True)
-     def create_minion (self, player) :
+    def create_minion (self, player) :
         return Minion(1, 2, taunt = True, divine_shield = True)
 ```
 Example Code:
@@ -54,6 +54,6 @@ Example Code:
 class AnnoyoTron(MinionCard ) : 
     def __init__ (self) :
         super().__init__("Annoy-o-Tron", 2, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON, minion_type = MINION_TYPE.MECH)
-     def create_minion (self, player) :
+    def create_minion (self, player) :
         return Minion(1, 2, divine_shield = True, taunt = True)
  ```
