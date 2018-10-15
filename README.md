@@ -31,7 +31,7 @@ class BootyBayBodyguard(MinionCard ) :
      def create_minion (self, player) :
         return Minion(5, 4, taunt = True)
 ```
-Example:
+Example Code:
 ```
 class BootyBayBodyguard(MinionCard ) : 
     def __init__ (self) :
@@ -40,6 +40,7 @@ class BootyBayBodyguard(MinionCard ) :
         return Minion(5, 4, taunt = True)
 ```
  Our model tends to generate a structrual correct code, which leads to a higher StrAcc but a similar BLEU compared with previous works.
+ Code we generated.
 ```
 class AnnoyoTron(MinionCard ) : 
     def __init__ (self) :
@@ -47,7 +48,7 @@ class AnnoyoTron(MinionCard ) :
      def create_minion (self, player) :
         return Minion(1, 2, taunt = True, divine_shield = True)
 ```
-Example:
+Example Code:
 ```
 class AnnoyoTron(MinionCard ) : 
     def __init__ (self) :
