@@ -36,7 +36,7 @@ Example Code:
 class BootyBayBodyguard(MinionCard ) : 
     def __init__ (self) :
         super().__init__("Booty Bay Bodyguard", 5, CHARACTER_CLASS.ALL, CARD_RARITY.COMMON)
-     def create_minion (self, player) :
+    def create_minion (self, player) :
         return Minion(5, 4, taunt = True)
 ```
  Our model tends to generate a structrual correct code, which leads to a higher StrAcc but a similar BLEU compared with previous works.
