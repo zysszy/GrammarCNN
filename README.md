@@ -1,4 +1,6 @@
 # GrammarCNN
+## A Grammar-Based Structural CNN Decoder for Code Generation
+Our paper: https://arxiv.org/pdf/1811.06837.pdf
 ## Usage
 ### To train new model
 In folder ```model/```, train new model
