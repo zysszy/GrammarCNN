@@ -2,16 +2,16 @@
 ## A Grammar-Based Structural CNN Decoder for Code Generation
 Our paper: https://arxiv.org/pdf/1811.06837.pdf
 ## Usage
-### To train new model
-In folder ```model/```, train new model
+### To train a new model
+In folder ```model/```, to train a new model
 ```
-python3 run.py train [train|dev|test] [tree|var|func]
+python3 run.py train [dev|test] [tree|var|func]
 ```
 ```tree``` for nonterminal nodes, ```var``` for variable nodes, and ```func``` for function nodes.
 
-```train```, ```dev``` and ```test``` denote the evaluation set.
+```dev``` and ```test``` denote the evaluation set.
 ### To predict
-After ```tree```, ```var```, and ```func``` are trained.
+After ```tree```, ```var```, and ```func``` were trained.
 
 In folder ```predict/```
 ```
